@@ -1,0 +1,37 @@
+{
+	"rooms" : [
+		{
+			"type": "CONF",
+			"name": "Bantugen",
+			"floor": "7th Floor",
+			"capacity": "5",
+			"id": "1"
+		}
+	,
+		{
+			"type": "CONF",
+			"name": "Bindian",
+			"floor": "7th Floor",
+			"capacity": "5",
+			"id": "2"
+		}
+	,
+	
+		{
+			"type": "CONF",
+			"name": "Meeting Room 01",
+			"floor": "15th Floor",
+			"capacity": "!0",
+			"id": "3"
+		}
+	,
+	
+		{
+			"type": "CONF",
+			"name": "Bohol",
+			"floor": "6th Floor",
+			"capacity": "3",
+			"id": "4"
+		}
+	]
+}

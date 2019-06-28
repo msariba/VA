@@ -1,0 +1,26 @@
+{
+	"reservations": [
+					{
+						"id": "1",
+						"details":[{
+						"roomId": "2",
+						"date": "2019-06-27",
+						"starTime": "14:00",
+						"endTime": "15:00",
+						"attendees": "4",
+						"status": "Reserved"}]
+						
+					},
+					{
+						"id": "2",
+						"details":[{
+						"roomId": "2",
+						"date": "2019-06-28",
+						"starTime": "14:00",
+						"endTime": "15:00",
+						"attendees": "4",
+						"status": "Cancelled"}]
+						
+					}
+				]	
+}

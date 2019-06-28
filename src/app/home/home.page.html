@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Voice Assistant
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <!-- Input text box to view voice input -->
+  <input ion-text type="text" [(ngModel)]="query">
+  <!-- VA response container -->
+  <div class="answer">{{answer}}</div>
+  <!-- Button to trigger listen on microphone -->
+  <div class="speechButton">
+    <button ion-button (click)="start()">Tap to Speak</button>
+  </div>
+  <div>
+    <ion-list lines="none">
+      <form [formGroup]="myForm">
+        <ion-item *ngFor="let room of Rooms">
+          <ion-button expand = "block" color = "light" fill="outline">{{room}}</ion-button>
+        </ion-item>
+      </form>
+    </ion-list>
+  </div>
+</ion-content>

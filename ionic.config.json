@@ -1,0 +1,7 @@
+{
+  "name": "ionic-apiai",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
